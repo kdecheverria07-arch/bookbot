@@ -5,7 +5,7 @@ def get_book_text(filepath):
 
 def main():
     # Use the function with the relative path to frankenstein.txt
-    book_text = get_book_text("bookbot/books/frankenstein.txt")
+    book_text = get_book_text("books/frankenstein.txt")
     
     # Print the entire contents of the book to the console
     print(book_text)
