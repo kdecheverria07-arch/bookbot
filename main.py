@@ -3,10 +3,7 @@ def get_book_text(filepath):
     with open(filepath, 'r') as file:
         return file.read()
 
-def count_words(text):
-    """Accept text as a string and return the number of words."""
-    words = text.split()
-    return len(words)
+from stats import count_words
 
 def main():
     # Get the book text
